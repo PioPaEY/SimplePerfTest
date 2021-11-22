@@ -40,6 +40,14 @@ http://maven.apache.org/maven-v4_0_0.xsd">
             <artifacts>cloud.testload:jmeter.pack-listener:1.7</artifacts>
           </jmeterExtensions>
           <errorRateThresholdInPercent>51</errorRateThresholdInPercent>
+          <propertiesJMeter>
+            <BUILD_TAG>${project.version}</BUILD_TAG>
+            <threads>7</threads>
+            <duration>30</duration>
+            <serverName>host.docker.internal</serverName>
+            <serverPort>9000</serverPort>
+            <serverProtocol>http</serverProtocol>
+        </propertiesJMeter>
         </configuration>
           <executions>
               <!-- Generate JMeter configuration -->
