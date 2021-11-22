@@ -39,6 +39,7 @@ http://maven.apache.org/maven-v4_0_0.xsd">
             <artifacts>kg.apc:jmeter-plugins-csl:0.1</artifacts>
             <artifacts>cloud.testload:jmeter.pack-listener:1.7</artifacts>
           </jmeterExtensions>
+          <errorRateThresholdInPercent>51</errorRateThresholdInPercent>
         </configuration>
           <executions>
               <!-- Generate JMeter configuration -->
