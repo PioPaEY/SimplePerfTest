@@ -20,11 +20,6 @@ http://maven.apache.org/maven-v4_0_0.xsd">
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
-    <dependency>
-      <groupId>org.jenkins-ci.plugins</groupId>
-      <artifactId>performance</artifactId>
-      <version>3.20</version>
-    </dependency>
   </dependencies>
   <build>
      <plugins>
