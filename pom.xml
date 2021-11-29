@@ -45,7 +45,7 @@ http://maven.apache.org/maven-v4_0_0.xsd">
             <BUILD_TAG>${project.version}</BUILD_TAG>
             <threads>10</threads>
             <duration>60</duration>
-            <serverName>localhost</serverName>
+            <serverName>host.docker.internal</serverName>
             <serverPort>9001</serverPort>
             <serverProtocol>http</serverProtocol>
         </propertiesJMeter>
