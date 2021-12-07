@@ -43,7 +43,7 @@ http://maven.apache.org/maven-v4_0_0.xsd">
           <testResultsTimestamp>false</testResultsTimestamp>
           <propertiesJMeter>
             <BUILD_TAG>${project.version}</BUILD_TAG>
-            <threads>10</threads>
+            <threads>30</threads>
             <duration>60</duration>
             <serverName>host.docker.internal</serverName>
             <serverPort>9001</serverPort>
