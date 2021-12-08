@@ -48,7 +48,7 @@ http://maven.apache.org/maven-v4_0_0.xsd">
             <serverName>host.docker.internal</serverName>
             <serverPort>9001</serverPort>
             <serverProtocol>http</serverProtocol>
-        </propertiesJMeter>
+          </propertiesJMeter>
         </configuration>
           <executions>
               <!-- Generate JMeter configuration -->
@@ -72,11 +72,8 @@ http://maven.apache.org/maven-v4_0_0.xsd">
                       <goal>results</goal>
                   </goals>
               </execution>
-          </executions>
-          
-      </plugin>
-    
-    </plugins>
-    
-</build>
+          </executions>          
+      </plugin>    
+    </plugins>    
+  </build>
 </project>
