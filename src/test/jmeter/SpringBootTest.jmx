@@ -177,7 +177,7 @@
             </elementProp>
             <elementProp name="runId" elementType="Argument">
               <stringProp name="Argument.name">runId</stringProp>
-              <stringProp name="Argument.value">${__time(dd.MM.yyyy-H:M:S,)}</stringProp>
+              <stringProp name="Argument.value">${__time(ddMMyyyy-HMS,)}</stringProp>
               <stringProp name="Argument.metadata">=</stringProp>
             </elementProp>
             <elementProp name="influxDBHost" elementType="Argument">
